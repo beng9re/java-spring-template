@@ -1,0 +1,12 @@
+# Java sources
+*.java          text diff=java eol=lf
+*.gradle        text diff=java eol=lf
+
+# These files are text and should be normalized
+*.md            text eol=lf
+
+
+# These files are binary and should be left untouched
+# (binary is a macro for -text -diff)
+*.class         binary
+*.jar           binary
